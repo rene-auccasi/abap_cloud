@@ -1,4 +1,4 @@
-CLASS zra_hola_mundo DEFINITION
+CLASS zra_hola_mundo2 DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,10 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zra_hola_mundo IMPLEMENTATION.
+CLASS zra_hola_mundo2 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hola mundo ABAP' ).
   ENDMETHOD.
 ENDCLASS.
