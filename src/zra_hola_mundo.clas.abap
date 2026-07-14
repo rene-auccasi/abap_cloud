@@ -16,6 +16,6 @@ CLASS zra_hola_mundo IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hola mundo ABAP' ).
+    out->write( 'Hola mundo ABAP cómo estás' ).
   ENDMETHOD.
 ENDCLASS.
