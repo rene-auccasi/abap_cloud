@@ -16,6 +16,8 @@ CLASS zra_hola_mundo IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hola mundo ABAP cómo estás' ).
+  DATA: lv_Cadena(10) TYPE c.
+    lv_Cadena = '123'.
+    out->write( |Hola mundo ABAP cómo estás { lv_Cadena }| ).
   ENDMETHOD.
 ENDCLASS.
